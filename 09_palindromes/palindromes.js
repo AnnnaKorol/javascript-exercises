@@ -16,7 +16,8 @@ const palindromes = function (string) {
     return cleanedString === reversedString;
   };
 
-
+// Do not edit below this line
+module.exports = palindromes;
 
 
 
@@ -33,8 +34,7 @@ const palindromes = function (string) {
 //     //3)compare the original string with the revert string:
 // return combinedWordsString === reverseCombinedWordsString;
 // };
-// // Do not edit below this line
-// module.exports = palindromes;
+
 
 
 

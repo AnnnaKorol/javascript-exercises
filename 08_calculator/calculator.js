@@ -10,7 +10,7 @@ const sum = function (array) {
   return array.reduce((Summand1, Summand2) => Summand1 + Summand2, 0);
 };
 
-const multiply = function (...values) {
+const multiply = function (values) {
   return values.reduce((multiplicand, multiplier) => multiplicand * multiplier);
 };
 
@@ -21,7 +21,7 @@ const power = function (base, exponent) {
 const factorial = function (n) {
   //0! = 1, 1! = 1
   if (
-    n > 0 &&
+    n >= 0 &&
     n <= 1 //or (n === 1)
   ) {
     return 1;
